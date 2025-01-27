@@ -12,6 +12,6 @@ public class VehicleViewModel(Guid id, string vin, string registrationNumber, st
     public static VehicleViewModel Create(Vehicle vehicle, string status)
     {
         ArgumentNullException.ThrowIfNull(vehicle);
-        return new VehicleViewModel(vehicle.Id, vehicle.RegistrationNumber, vehicle.RegistrationNumber, status);
+        return new VehicleViewModel(vehicle.Id, vehicle.Vin, vehicle.RegistrationNumber, status);
     }
 }
