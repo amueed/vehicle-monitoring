@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleMonitoring.Api", "src\VehicleMonitoring.Api\VehicleMonitoring.Api.csproj", "{C8C58E0F-AD13-4E3F-B221-76A705237A72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleMonitoring.Infrastructure", "src\VehicleMonitoring.Infrastructure\VehicleMonitoring.Infrastructure.csproj", "{EF36CEE6-FEF9-4A00-8D09-19707AEF9DDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleMonitoring.Core", "src\VehicleMonitoring.Core\VehicleMonitoring.Core.csproj", "{230C4D9C-5380-40D7-B914-898F77F2E5DD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C8C58E0F-AD13-4E3F-B221-76A705237A72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C8C58E0F-AD13-4E3F-B221-76A705237A72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C8C58E0F-AD13-4E3F-B221-76A705237A72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C8C58E0F-AD13-4E3F-B221-76A705237A72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF36CEE6-FEF9-4A00-8D09-19707AEF9DDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF36CEE6-FEF9-4A00-8D09-19707AEF9DDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF36CEE6-FEF9-4A00-8D09-19707AEF9DDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF36CEE6-FEF9-4A00-8D09-19707AEF9DDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{230C4D9C-5380-40D7-B914-898F77F2E5DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{230C4D9C-5380-40D7-B914-898F77F2E5DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{230C4D9C-5380-40D7-B914-898F77F2E5DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{230C4D9C-5380-40D7-B914-898F77F2E5DD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

@@ -1,1 +1,21 @@
 name: vehicle-monitoring-stack
+services:
+  vehicle-monitoring-backend:
+    image: vehicle-monitoring-backend:local
+    container_name: vehicle-monitoring-backend
+    build:
+      context: .
+      dockerfile: ./backend/src/VehicleMonitoring.Api
+    restart: always
+    ports:
+      - 5000:5000
+
+  vehicle-monitoring-frontend:
+    image: vehicle-monitoring-ui:local
+    container_name: vehicle-monitoring-ui
+    build:
+      context: .
+      dockerfile: ./frontend/Dockerfile
+    restart: always
+    ports:
+      - 4200:80
