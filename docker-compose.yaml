@@ -4,18 +4,20 @@ services:
     image: vehicle-monitoring-backend:local
     container_name: vehicle-monitoring-backend
     build:
-      context: .
-      dockerfile: ./backend/src/VehicleMonitoring.Api
+      context: ./backend/src
+      dockerfile: ./VehicleMonitoring.Api/Dockerfile
     restart: always
     ports:
-      - 5000:5000
+      - 8080:8080
 
-  vehicle-monitoring-frontend:
-    image: vehicle-monitoring-ui:local
-    container_name: vehicle-monitoring-ui
-    build:
-      context: .
-      dockerfile: ./frontend/Dockerfile
-    restart: always
-    ports:
-      - 4200:80
+  # vehicle-monitoring-frontend:
+  #   image: vehicle-monitoring-ui:local
+  #   container_name: vehicle-monitoring-ui
+  #   build:
+  #     context: .
+  #     dockerfile: ./frontend/Dockerfile
+  #   restart: always
+  #   depends_on:
+  #     - vehicle-monitoring-backend
+  #   ports:
+  #     - 4200:80
