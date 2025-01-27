@@ -6,6 +6,7 @@
 
 - React with Vite
 - Material UI
+- Docker
 
 ### Back End
 
@@ -13,6 +14,7 @@
 - Minimal API
 - EF Core
 - Swagger
+- Docker
 
 ## Running this Project
 
@@ -32,7 +34,7 @@ Before running this project, you need to install following:
    ```
 2. Open Terminal Window in VS Code 'Terminal > New Terminal' and run this command in terminal.
    ```sh
-   docker-compose up --build -d
+   docker compose up --build -d
    ```
 3. After successful build of docker images in compose file, all the services will start running.
 
